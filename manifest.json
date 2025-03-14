@@ -1,0 +1,23 @@
+{
+   "author": "SpookyKipper (spooky.hk)",
+   "content_scripts": [
+      {
+         "js": [
+            "grokAI/xAi.js"
+         ],
+         "matches": [
+            "https://x.com/home"
+         ]
+      }
+   ],
+   "description": "Turns X(Twitter) in the Opera Sidebar to GrokAI Chatbot (xAI)",
+   "icons": {
+      "128": "icon.png"
+   },
+   "manifest_version": 3,
+   "name": "xAI Sidebar (Grok)",
+   "version": "0.0.1",
+   "action": {
+      "default_popup": "popup.html"
+   }
+}
